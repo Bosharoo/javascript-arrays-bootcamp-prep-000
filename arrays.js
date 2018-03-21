@@ -9,4 +9,5 @@ function addElementToBeginningOfArray(arr, element)
 function destructivelyAddElementToBeginningOfArray(arr, element)
 {
   arr = [element, ...arr];
+  return arr;
 }
